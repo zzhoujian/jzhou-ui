@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 import ZjUI from "../packages";
-import "jzhou-ui/dist/jzhou-ui.css";
+import "../dist/jzhou-ui.css";
 
 Vue.config.productionTip = false;
 Vue.use(ZjUI);
