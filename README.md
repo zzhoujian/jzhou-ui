@@ -1,24 +1,14 @@
-# jzhou-ui
+# install
 
-## Project setup
-```
-yarn install
-```
+npm i jzhou-ui -S
 
-### Compiles and hot-reloads for development
+# quickStart
 ```
-yarn serve
-```
+// in main.js
+import ZjUI from 'jzhou-ui';
+import 'jzhou-ui/dist/jzhou-ui.css';
+Vue.use(ZjUI);
 
-### Compiles and minifies for production
+// in .vue
+<zj-button></zj-button>;
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
